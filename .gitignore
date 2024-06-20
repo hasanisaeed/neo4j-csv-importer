@@ -1,0 +1,16 @@
+.venv310
+.venv
+venv
+
+.env
+
+*.pyc
+__pycache__
+
+.idea
+.vscode
+
+build
+neo4j_csv_importer.egg-info
+
+relationships.json

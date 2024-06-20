@@ -1,0 +1,8 @@
+{
+  "relationships": [
+    {
+      "type": "Relation name, for example CREATED_AT",
+      "query": "Relation query, for example: LOAD CSV WITH HEADERS FROM 'file:///visits.csv' AS row MATCH (source:visits {visit_id: toInteger(trim(row.visit_id))}) MATCH (target:hospitals {hospital_id: toInteger(trim(row.hospital_id))}) MERGE (source)-[r:AT]->(target)"
+    }
+  ]
+}
