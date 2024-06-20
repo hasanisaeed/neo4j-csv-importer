@@ -33,7 +33,7 @@ def main():
         neo4j_loader.set_constraints(node_types)
 
         # LOGGER.info("Loading nodes from CSV files")
-        # neo4j_loader.load_nodes(csv_handler, csv_files)
+        neo4j_loader.load_nodes(csv_handler, csv_files)
 
         LOGGER.info("Loading relationships from CSV files")
         relationship_configs = load_relationship_configs('relationships.json')
