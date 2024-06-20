@@ -14,3 +14,5 @@ build
 neo4j_csv_importer.egg-info
 
 relationships.json
+
+.pytest_cache

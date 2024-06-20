@@ -9,7 +9,8 @@ setup(
         'neo4j==5.21.0',
         'pandas==2.2.2',
         'python-dotenv==1.0.1',
-        'retry==0.9.2'
+        'retry==0.9.2',
+        'pytest==8.2.2',
     ],
     entry_points={
         'console_scripts': [
