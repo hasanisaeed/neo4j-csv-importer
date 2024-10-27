@@ -1,3 +1,5 @@
+> ⚠️ This repository is currently under development and is not ready for use yet. We're actively working on it.
+
 # Neo4j CSV Importer
 
 The `neo4j-csv-importer` is a Python package designed to import CSV data into a Neo4j database. This package supports loading nodes and relationships from CSV files based on a specified ontology.
